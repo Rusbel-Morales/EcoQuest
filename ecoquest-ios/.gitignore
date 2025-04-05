@@ -1,0 +1,63 @@
+# Xcode
+#
+.DS_Store
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/**/*
+!*.xcworkspace/contents.xcworkspacedata
+
+# Swift Package Manager
+#
+.swiftpm
+.build/
+Package.resolved
+
+# CocoaPods
+#
+Pods/
+Podfile.lock
+Podfile
+
+# Carthage
+#
+Carthage/Build/
+Carthage/Checkouts/
+
+# Fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+*.lock
+
+# Archives
+#
+*.xcarchive
+
+# Derived data
+#
+DerivedData/
+
+# App packaging
+#
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+#
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftUI Previews
+#
+.swiftpm/xcode/package.xcworkspace/xcuserdata
+
+# General Xcode exclusions
+#
+.idea/
+xcuserdata/

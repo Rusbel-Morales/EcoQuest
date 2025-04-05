@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83F329F12CA75906003F8B85 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 83F329F02CA75906003F8B85 /* AlertToast */; };
+		ED57E1402CA11B3C00494B92 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ED57E13F2CA11B3C00494B92 /* GoogleSignInSwift */; };
+		ED57E1422CA11B4F00494B92 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = ED57E1412CA11B4F00494B92 /* GoogleSignIn */; };
+		ED6EA81A2C9C9A05008C1CCB /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = ED6EA8192C9C9A05008C1CCB /* FirebaseAnalytics */; };
+		ED6EA81C2C9C9A05008C1CCB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = ED6EA81B2C9C9A05008C1CCB /* FirebaseAuth */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED36922C2C9BA293003A2205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED3692132C9BA291003A2205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED36921A2C9BA291003A2205;
+			remoteInfo = "ecoquest-iOS";
+		};
+		ED3692362C9BA293003A2205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED3692132C9BA291003A2205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED36921A2C9BA291003A2205;
+			remoteInfo = "ecoquest-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED36921B2C9BA291003A2205 /* ecoquest-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ecoquest-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED36922B2C9BA293003A2205 /* ecoquest-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ecoquest-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3692352C9BA293003A2205 /* ecoquest-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ecoquest-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ED57E13D2CA1194C00494B92 /* Exceptions for "ecoquest-iOS" folder in "ecoquest-iOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = ED36921A2C9BA291003A2205 /* ecoquest-iOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ED36921D2C9BA291003A2205 /* ecoquest-iOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				ED57E13D2CA1194C00494B92 /* Exceptions for "ecoquest-iOS" folder in "ecoquest-iOS" target */,
+			);
+			path = "ecoquest-iOS";
+			sourceTree = "<group>";
+		};
+		ED36922E2C9BA293003A2205 /* ecoquest-iOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ecoquest-iOSTests";
+			sourceTree = "<group>";
+		};
+		ED3692382C9BA293003A2205 /* ecoquest-iOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ecoquest-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED3692182C9BA291003A2205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED57E1402CA11B3C00494B92 /* GoogleSignInSwift in Frameworks */,
+				ED57E1422CA11B4F00494B92 /* GoogleSignIn in Frameworks */,
+				ED6EA81A2C9C9A05008C1CCB /* FirebaseAnalytics in Frameworks */,
+				83F329F12CA75906003F8B85 /* AlertToast in Frameworks */,
+				ED6EA81C2C9C9A05008C1CCB /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3692282C9BA293003A2205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3692322C9BA293003A2205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED3692122C9BA291003A2205 = {
+			isa = PBXGroup;
+			children = (
+				ED36921D2C9BA291003A2205 /* ecoquest-iOS */,
+				ED36922E2C9BA293003A2205 /* ecoquest-iOSTests */,
+				ED3692382C9BA293003A2205 /* ecoquest-iOSUITests */,
+				ED36921C2C9BA291003A2205 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED36921C2C9BA291003A2205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED36921B2C9BA291003A2205 /* ecoquest-iOS.app */,
+				ED36922B2C9BA293003A2205 /* ecoquest-iOSTests.xctest */,
+				ED3692352C9BA293003A2205 /* ecoquest-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED36921A2C9BA291003A2205 /* ecoquest-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED36923F2C9BA293003A2205 /* Build configuration list for PBXNativeTarget "ecoquest-iOS" */;
+			buildPhases = (
+				ED3692172C9BA291003A2205 /* Sources */,
+				ED3692182C9BA291003A2205 /* Frameworks */,
+				ED3692192C9BA291003A2205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ED36921D2C9BA291003A2205 /* ecoquest-iOS */,
+			);
+			name = "ecoquest-iOS";
+			packageProductDependencies = (
+				ED6EA8192C9C9A05008C1CCB /* FirebaseAnalytics */,
+				ED6EA81B2C9C9A05008C1CCB /* FirebaseAuth */,
+				ED57E13F2CA11B3C00494B92 /* GoogleSignInSwift */,
+				ED57E1412CA11B4F00494B92 /* GoogleSignIn */,
+				83F329F02CA75906003F8B85 /* AlertToast */,
+			);
+			productName = "ecoquest-iOS";
+			productReference = ED36921B2C9BA291003A2205 /* ecoquest-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED36922A2C9BA293003A2205 /* ecoquest-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3692422C9BA293003A2205 /* Build configuration list for PBXNativeTarget "ecoquest-iOSTests" */;
+			buildPhases = (
+				ED3692272C9BA293003A2205 /* Sources */,
+				ED3692282C9BA293003A2205 /* Frameworks */,
+				ED3692292C9BA293003A2205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED36922D2C9BA293003A2205 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ED36922E2C9BA293003A2205 /* ecoquest-iOSTests */,
+			);
+			name = "ecoquest-iOSTests";
+			packageProductDependencies = (
+			);
+			productName = "ecoquest-iOSTests";
+			productReference = ED36922B2C9BA293003A2205 /* ecoquest-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED3692342C9BA293003A2205 /* ecoquest-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3692452C9BA293003A2205 /* Build configuration list for PBXNativeTarget "ecoquest-iOSUITests" */;
+			buildPhases = (
+				ED3692312C9BA293003A2205 /* Sources */,
+				ED3692322C9BA293003A2205 /* Frameworks */,
+				ED3692332C9BA293003A2205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED3692372C9BA293003A2205 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ED3692382C9BA293003A2205 /* ecoquest-iOSUITests */,
+			);
+			name = "ecoquest-iOSUITests";
+			packageProductDependencies = (
+			);
+			productName = "ecoquest-iOSUITests";
+			productReference = ED3692352C9BA293003A2205 /* ecoquest-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED3692132C9BA291003A2205 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					ED36921A2C9BA291003A2205 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					ED36922A2C9BA293003A2205 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = ED36921A2C9BA291003A2205;
+					};
+					ED3692342C9BA293003A2205 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = ED36921A2C9BA291003A2205;
+					};
+				};
+			};
+			buildConfigurationList = ED3692162C9BA291003A2205 /* Build configuration list for PBXProject "ecoquest-iOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED3692122C9BA291003A2205;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				ED6EA8182C9C9A05008C1CCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				ED57E13E2CA11B3C00494B92 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				83F329EF2CA75906003F8B85 /* XCRemoteSwiftPackageReference "AlertToast" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ED36921C2C9BA291003A2205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED36921A2C9BA291003A2205 /* ecoquest-iOS */,
+				ED36922A2C9BA293003A2205 /* ecoquest-iOSTests */,
+				ED3692342C9BA293003A2205 /* ecoquest-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED3692192C9BA291003A2205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3692292C9BA293003A2205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3692332C9BA293003A2205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED3692172C9BA291003A2205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3692272C9BA293003A2205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3692312C9BA293003A2205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED36922D2C9BA293003A2205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED36921A2C9BA291003A2205 /* ecoquest-iOS */;
+			targetProxy = ED36922C2C9BA293003A2205 /* PBXContainerItemProxy */;
+		};
+		ED3692372C9BA293003A2205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED36921A2C9BA291003A2205 /* ecoquest-iOS */;
+			targetProxy = ED3692362C9BA293003A2205 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED36923D2C9BA293003A2205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED36923E2C9BA293003A2205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED3692402C9BA293003A2205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ecoquest-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = X8MDG8CRRQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ecoquest-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.tec-t2.ecoquest-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED3692412C9BA293003A2205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ecoquest-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = X8MDG8CRRQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ecoquest-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.tec-t2.ecoquest-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED3692432C9BA293003A2205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.tec-t2.ecoquest-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ecoquest-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ecoquest-iOS";
+			};
+			name = Debug;
+		};
+		ED3692442C9BA293003A2205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.tec-t2.ecoquest-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ecoquest-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ecoquest-iOS";
+			};
+			name = Release;
+		};
+		ED3692462C9BA293003A2205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.tec-t2.ecoquest-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ecoquest-iOS";
+			};
+			name = Debug;
+		};
+		ED3692472C9BA293003A2205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.tec-t2.ecoquest-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ecoquest-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED3692162C9BA291003A2205 /* Build configuration list for PBXProject "ecoquest-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED36923D2C9BA293003A2205 /* Debug */,
+				ED36923E2C9BA293003A2205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED36923F2C9BA293003A2205 /* Build configuration list for PBXNativeTarget "ecoquest-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3692402C9BA293003A2205 /* Debug */,
+				ED3692412C9BA293003A2205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3692422C9BA293003A2205 /* Build configuration list for PBXNativeTarget "ecoquest-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3692432C9BA293003A2205 /* Debug */,
+				ED3692442C9BA293003A2205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3692452C9BA293003A2205 /* Build configuration list for PBXNativeTarget "ecoquest-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3692462C9BA293003A2205 /* Debug */,
+				ED3692472C9BA293003A2205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		83F329EF2CA75906003F8B85 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.9;
+			};
+		};
+		ED57E13E2CA11B3C00494B92 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		ED6EA8182C9C9A05008C1CCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		83F329F02CA75906003F8B85 /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83F329EF2CA75906003F8B85 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+		ED57E13F2CA11B3C00494B92 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED57E13E2CA11B3C00494B92 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		ED57E1412CA11B4F00494B92 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED57E13E2CA11B3C00494B92 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		ED6EA8192C9C9A05008C1CCB /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED6EA8182C9C9A05008C1CCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		ED6EA81B2C9C9A05008C1CCB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED6EA8182C9C9A05008C1CCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ED3692132C9BA291003A2205 /* Project object */;
+}

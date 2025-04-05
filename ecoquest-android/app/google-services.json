@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "594638483062",
+    "project_id": "ecoquest-2f063",
+    "storage_bucket": "ecoquest-2f063.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594638483062:android:1a38660bebe314612c3957",
+        "android_client_info": {
+          "package_name": "mx.tec.ecoquest_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594638483062-20i3abr2rqnvibhkn9usrkm5i1qf3tgo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.tec.ecoquest_android",
+            "certificate_hash": "57b3530360ea6d22532b07361c3c7180cc714be5"
+          }
+        },
+        {
+          "client_id": "594638483062-ftmmfhqvuqprogueqvo1qg9f91mfisce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.tec.ecoquest_android",
+            "certificate_hash": "7e1f8562c7ae4678bc5e38be06fea1cbc4169c93"
+          }
+        },
+        {
+          "client_id": "594638483062-ksda39a6aq9jkk16kikuu9kfh1r6njg9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.tec.ecoquest_android",
+            "certificate_hash": "81084f3b68e5b02439d357a0e2c7cb71a7b85ff3"
+          }
+        },
+        {
+          "client_id": "594638483062-0grk7f6qop5u2ej7j2sahsppho07c4iq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXxsEdDPhHtt3YkyI2GRMeCDLr7m0nRcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594638483062-0grk7f6qop5u2ej7j2sahsppho07c4iq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "594638483062-aqh5on3m45akju4nst0o819l5qtl3tjd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "mx.tec-t2.ecoquest-iOS"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

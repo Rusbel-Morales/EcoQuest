@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>594638483062-aqh5on3m45akju4nst0o819l5qtl3tjd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.594638483062-aqh5on3m45akju4nst0o819l5qtl3tjd</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>594638483062-20i3abr2rqnvibhkn9usrkm5i1qf3tgo.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDpCSqew-97XxjQ6etc5nVr3jbxGihqKUI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>594638483062</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>mx.tec-t2.ecoquest-iOS</string>
+	<key>PROJECT_ID</key>
+	<string>ecoquest-2f063</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ecoquest-2f063.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:594638483062:ios:c7893d27b65d71ae2c3957</string>
+</dict>
+</plist>
