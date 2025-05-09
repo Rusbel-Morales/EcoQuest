@@ -40,6 +40,6 @@ Mis responsabilidades incluyeron:
 ## 👥 Autores del proyecto
 
 - **Rusbel Alejandro Morales Méndez** – [GitHub](#) *(este perfil)*
-- **Jonathan Armando Arredondo Hernández** – [GitHub](#)
-- **Kevin Núñez Olarte** – [GitHub](#)
-- **Pablo André Coca Murillo** – [GitHub](#)
+- **Jonathan Armando Arredondo Hernández** – [GitHub](https://github.com/jonar12)
+- **Kevin Núñez Olarte** – [GitHub](https://github.com/KevNunez5)
+- **Pablo André Coca Murillo** – [GitHub](https://github.com/PACM-an)
