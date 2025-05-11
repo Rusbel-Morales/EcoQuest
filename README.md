@@ -1,7 +1,7 @@
-# Ecoquest  
+# EcoQuest  
 **Mobile Development – Project completed in the AD2024 semester**
 
-**Ecoquest** is a cross-platform mobile application (Android and iOS) developed natively in collaboration with the training partner **EcoEspacio**. Its main objective is to promote environmental awareness through interactive activities tailored to user behavior. The app encourages environmental action through missions, in-app rewards, and personalized statistics.
+**EcoQuest** is a cross-platform mobile application (Android and iOS) developed natively in collaboration with the training partner **EcoEspacio**. Its main objective is to promote environmental awareness through interactive activities tailored to user behavior. The app encourages environmental action through missions, in-app rewards, and personalized statistics.
 
 ## 📱 Role in the project
 
